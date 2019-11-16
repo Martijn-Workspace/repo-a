@@ -37,31 +37,3 @@ repository:
   # Either `true` to allow rebase-merging pull requests, or `false` to prevent
   # rebase-merging.
   allow_rebase_merge: true
-
-# Labels: define labels for Issues and Pull Requests
-labels:
-  - name: bug
-    color: CC0000
-    description: An issue with the system.
-
-  - name: feature
-    # If including a `#`, make sure to wrap it with quotes!
-    color: '#336699'
-    description: New functionality.
-
-
-# Milestones: define milestones for Issues and Pull Requests
-milestones:
-  - title: milestone-title
-    description: milestone-description
-    # The state of the milestone. Either `open` or `closed`
-    state: open
-
-# NOTE: The APIs needed for teams are not supported yet by GitHub Apps
-# https://developer.github.com/v3/apps/available-endpoints/
-teams:
-  - name: core
-    permission: admin
-  - name: docs
-    permission: push
-
