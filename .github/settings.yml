@@ -1,3 +1,4 @@
+_extends: .github
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
